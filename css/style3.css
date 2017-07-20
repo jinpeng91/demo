@@ -1,0 +1,55 @@
+		#third{
+			position: absolute;
+			left:600px;
+		}
+		#bigbox3{
+			width: 200px;
+			height: 200px;
+			border-radius:150px;
+			background-color:pink;
+			overflow:hidden;
+			position: relative;
+			
+		}
+		img{
+			
+			width:400px;
+			height: 200px;
+		}
+		#box7{
+			position: absolute;
+		}
+		#box8{
+			position: absolute;
+			left:-240px;
+		}
+		#box9{
+			position: absolute;
+		}
+		@keyframes box8{
+		0%{margin-left:0px;}
+		100%{margin-left:400px;}
+		}
+
+		
+		
+		@keyframes box9{
+		0%{margin-left:0;}
+		100%{margin-left:-200px;}
+		}
+		
+		
+		@keyframes box9{
+		0%{margin-left:0;}
+		100%{margin-left:-200px;}
+		}
+
+		.thirdWord{
+			width: 200px;
+			height: 20px;
+			color:lightblue;
+			position: absolute;
+			top:-50px;
+			text-align: center;
+			display: none;
+		}

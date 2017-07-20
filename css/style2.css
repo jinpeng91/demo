@@ -1,0 +1,58 @@
+		#second{
+			position: absolute;
+			left:300px;
+		}
+		#bigbox2{
+			width: 200px;
+			height: 200px;
+			border-radius:150px;
+			background-color:pink;
+			overflow:hidden;
+			position: relative;
+			float:left;
+		
+
+		}
+		img{
+			
+			width:400px;
+			height: 200px;
+		}
+		#box4{
+			position: absolute;
+		}
+		#box5{
+			position: absolute;
+			left:-260px;
+			z-index:3;
+		}
+		#box6{
+			position: absolute;
+		}
+		@keyframes box5{
+		0%{margin-left:0px;}
+		100%{margin-left:400px;}
+		}
+
+		
+		
+		@keyframes box4{
+		0%{margin-left:0;}
+		100%{margin-left:-200px;}
+		}
+		
+		
+		@keyframes box6{
+		0%{margin-left:0;}
+		100%{margin-left:-200px;}
+		}
+
+		.secondWord{
+			width: 200px;
+			height: 20px;
+			color:lightblue;
+			position: absolute;
+			top:-50px;
+			text-align: center;
+			display: none;
+		}	
